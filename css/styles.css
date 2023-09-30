@@ -1,0 +1,274 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+* li {
+    list-style: none;
+}
+
+
+/* ========================== HEADER ========================== */
+
+.header {}
+
+.header-navigation {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.header-logo {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.header-menu-list {}
+
+.header-menu-item {}
+
+.header-menu-link {
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+.header-menu-link:hover {
+    color: #404bbf;
+}
+
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
+.header-address {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.header-address-list {}
+
+.header-address-item {}
+
+.header-address-link {
+    color: #434455;
+    text-decoration: none;
+}
+
+.header-address-link:hover {
+    color: #404bbf;
+}
+
+.header-address-link:focus {
+    color: #404bbf;
+}
+
+/* ==========================  ========================== */
+
+.main {}
+
+
+/* ========================== PRIMARY (1) ========================== */
+
+.section-primary {
+    background: #2E2F42;
+}
+
+.section-primary-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.section-primary-btn {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.section-primary-btn:hover {
+    background-color: #404BBF;
+}
+
+.section-primary-btn:focus {
+    background-color: #404BBF;
+}
+
+/* ========================== CONTENT (2) ========================== */
+
+.content {}
+
+.content-title {}
+
+.content-list {}
+
+.content-list-item {}
+
+.content-list-subtitle {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.content-list-text {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+} 
+
+/* ========================== OUR TEAM (3) ========================== */
+
+.ourteam {
+    background-color: #F4F4FD
+}
+
+.ourteam-title {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.ourteam-list {
+    background-color: #FFFFFF;
+}
+
+.ourteam-list-item {
+    background-color: #FFFFFF;
+}
+
+.ourteam-image {}
+
+.ourteam-subtitle {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.ourteam-text {
+color: #434455;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.32px;
+}
+
+
+/* ========================== PORTFOLIO (4) ========================== */
+
+.portfolio {}
+
+.portfolio-title {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+ 
+.portfolio-list {}
+
+.portfolio-list-item {}
+
+.portfolio-image {}
+
+.portfolio-subtitle {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.portfolio-text {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+
+/* ========================== FOOTER ========================== */
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-link {
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.studio-color {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
